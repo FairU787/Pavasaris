@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url(Foto/flower2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+nav{
+    width: 60%;
+    height: 49px;
+    background-image: linear-gradient(#fefefe, #e2e4e0);
+    border-radius: 7px;
+    margin: 0 auto;
+    border-top: 5px solid #61C5DA;
+    
+}
+ul{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;  
+}
+li{
+    display: inline-block;
+    width: 120px;
+    height: 49px;
+    position: relative;
+    top: -5px;
+    border-radius: 7px;
+}
+.antras{
+    background-image: linear-gradient(#61C5DA, #C342E4);
+}
+a{
+    display: block;
+    width: 120px;
+    height: 49px;
+    text-decoration: none;
+    color: #C342E4;
+    padding-top: 13px;
+    transition: 0.2s;
+}
+.antras a{
+    color: white;
+}
+li:hover{
+    background-image: linear-gradient(#61C5DA, #990099);
+}
+a:hover{
+    color: white;
+}
+header h1{
+    background-image: linear-gradient(#480976, #4b0979,#2d25b0);
+    width: 400px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 1%;
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px #fff;
+    font-size: 50px;
+}
+.foto{
+    width: 100%;
+    height: 650px;
+    background-image: radial-gradient(yellow,skyblue, cyan, limegreen, yellow);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+.foto div{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding-top: 10px;
+    font-size: 30px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin: 30px;
+    vertical-align: top;
+    color: white;
+}
+.foto1{
+    background-image:url(Foto/flower1.jpg);
+    top: 0;
+    left: 3%;
+}
+.foto2{
+    background-image:url(Foto/flower2.jpg);
+    top: 0;
+    left: 23%;
+}
+.foto3{
+    background-image:url(Foto/flower3.jpg);
+    top: 0;
+    left: 43%;
+}
+.foto4{
+    background-image:url(Foto/flower4.jpg);
+    top: 0;
+    left: 63%;
+}
+.foto5{
+    background-image:url(Foto/flower5.jpg);
+    top: 0;
+    left: 83%;
+}
+.foto6{
+    background-image:url(Foto/flower6.jpg);
+    bottom: 0;
+    left: 3%;
+}
+.foto7{
+    background-image:url(Foto/flower7.jpg);
+    bottom: 0;
+    left: 23%;
+}
+.foto8{
+    background-image:url(Foto/flower8.jpg);
+    bottom: 0;
+    left: 43%;
+}
+.foto9{
+    background-image:url(Foto/flower9.jpg);
+    bottom: 0;
+    left: 63%;
+}
+.foto10{
+    background-image:url(Foto/flower10.jpg);
+    bottom: 0;
+    left: 83%;
+}
+.foto div:hover{
+    mix-blend-mode: screen;
+}
+.text{
+    width: 100%;
+    height: auto;
+    background-image:radial-gradient(#EEE8AA, #F05FF0, #10E0D0, #1E70FF, #00FF7F);
+    text-align: center;
+    padding: 20px;
+}
+.text p{
+    width: 200px;
+    height: 500px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    text-align: justify;
+    margin: 50px;
+    vertical-align: top;
+    padding: 12px;
+    box-shadow: 0 0 5px #fff;
+    border-radius: 90px;
+    padding-top: 60px
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-image: url(Foto/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer h6{
+    width: 100%;
+    height: 300px;
+    padding: 100px;
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana;
+    background-image: linear-gradient(#480976, #4b0979,#2d25b0);
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px 5px;
+    color: rgba(0, 100, 255, 0.7)
+}
